@@ -16,4 +16,25 @@
 - На детальнойс транице в AppBar отображается имя артиста, а на экране видна информация из поля about.
 - Приложение должно выглядить как на скриншоте:
 
-![](https://github.com/yauheniprakapenka/flutter_home_work_navigation/blob/main/task/expect_ui.png?raw=true)
+<img src="https://github.com/yauheniprakapenka/flutter_home_work_navigation/blob/main/task/expect_ui.png?raw=true" width=700>
+
+<br>
+<br>
+
+**Выполнение задания**
+
+Flutter: v2.2.3
+<br>
+Dart: 3.13.3
+<br>
+Platform: Android, iOS
+<br>
+
+В качестве навигации использован onGenerateRoute.
+<br>
+<br>
+Демонстрация выполненного задания:
+
+Android | iOS
+------------ | -------------
+<img src="task/demo_android.gif" width=200> | <img src="task/demo_ios.gif" width=200>
