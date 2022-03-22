@@ -1,40 +1,16 @@
-# flutter_home_work_navigation
+# native_view_test
 
-Выполнил домашнее задание по навигации на курсе «Flutter» от Skillbox.
+A new Flutter project.
 
-**Описание домашнего задания**
+## Getting Started
 
-- Создайте приложение и выберите подход для построения навигации. Вы можете использовать как стандартные возможности flutter (onGenerateRoute), так и библиотеку для построения роутинга Fluro или любую другую библиотеку.
-- В приложении должен присутствовать Drawer с двумя роутами Home, Artists. На экране artists отобразите список c данными из JSON-файла (artists.json), который находится в папке assets. По клику на элемент списка отобразите детальную страницу артиста. 
-- В AppBar title отобразите имя исполнителя, а на страницу выведите информацию из поля about.
-- В Drawer текущий роут должен быть подсвечен синим цветом. На детальной странице должен присутствовать AppBar со стрелкой назад.
+This project is a starting point for a Flutter application.
 
-**Критерии выполнения**
+A few resources to get you started if this is your first Flutter project:
 
-- Приложение корректноз апускается. Отсутствуютошибкив консоли.
-- На экране albums отображается список артистов, при клике происходит переход на детальную страницу артиста.
-- На детальнойс транице в AppBar отображается имя артиста, а на экране видна информация из поля about.
-- Приложение должно выглядить как на скриншоте:
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-<img src="https://github.com/yauheniprakapenka/flutter_home_work_navigation/blob/main/task/expect_ui.png?raw=true" width=700>
-
-<br>
-<br>
-
-**Выполнение задания**
-
-Flutter: v2.2.3
-<br>
-Dart: 3.13.3
-<br>
-Platform: Android, iOS
-<br>
-
-В качестве навигации использован onGenerateRoute.
-<br>
-<br>
-Демонстрация выполненного задания:
-
-Android | iOS
------------- | -------------
-<img src="task/demo_android.gif" width=200> | <img src="task/demo_ios.gif" width=200>
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
