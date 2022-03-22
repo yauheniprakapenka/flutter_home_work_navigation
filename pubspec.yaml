@@ -12,4 +12,10 @@ dependencies:
   permission_handler: ^8.2.5
 
 flutter:
-  uses-material-design: true
+  plugin:
+    platforms:
+      android:
+        package: com.example.native_view_test
+        pluginClass: MainActivity
+      ios:
+        pluginClass: CardScannerPlugin
