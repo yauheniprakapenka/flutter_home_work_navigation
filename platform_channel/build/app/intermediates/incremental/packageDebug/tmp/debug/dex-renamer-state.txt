@@ -1,0 +1,4 @@
+#Thu Mar 24 15:12:52 MSK 2022
+base.0=/Users/yauheni.prakapenka/Documents/git/learning/qr_code/platform_channel/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
