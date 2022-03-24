@@ -1,3 +1,4 @@
+import 'package:bestapp/platform_widget.dart';
 import 'package:bestapp/service.dart';
 import 'package:flutter/material.dart';
 
@@ -51,21 +52,23 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
+            PlatformWidget(),
           ],
         ),
       ),
       floatingActionButton: Column(
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
-          FloatingActionButton(
-            onPressed: _getValue,
-            child: const Icon(Icons.add),
-          ),
-          const SizedBox(height: 20),
-          FloatingActionButton(
-            onPressed: _getStream,
-            child: const Icon(Icons.forward),
-          ),
+          // PlatformWidget(),
+          // FloatingActionButton(
+          //   onPressed: _getValue,
+          //   child: const Icon(Icons.add),
+          // ),
+          // const SizedBox(height: 20),
+          // FloatingActionButton(
+          //   onPressed: _getStream,
+          //   child: const Icon(Icons.forward),
+          // ),
         ],
       ),
     );
