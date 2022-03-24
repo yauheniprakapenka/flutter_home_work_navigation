@@ -1,4 +1,5 @@
-import 'package:bestapp/service.dart';
+import 'package:bestapp/src/platform_widget.dart';
+import 'package:bestapp/src/service.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-
 class MyHomePage extends StatelessWidget {
   const MyHomePage({Key? key}) : super(key: key);
 
@@ -30,7 +30,7 @@ class MyHomePage extends StatelessWidget {
             const SizedBox(
               width: 200,
               height: 100,
-              child: AndroidView(viewType: PlatformService.integrationAndroid),
+              child: PlatformWidget(),
             ),
             StreamBuilder<int>(
               stream: const PlatformService().eventChannel(),
