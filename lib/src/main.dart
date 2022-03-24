@@ -1,6 +1,7 @@
-import 'package:bestapp/src/platform_widget.dart';
-import 'package:bestapp/src/service.dart';
 import 'package:flutter/material.dart';
+
+import '../platform_view_virtual.dart';
+import 'platform_service.dart';
 
 void main() {
   runApp(const MyApp());
